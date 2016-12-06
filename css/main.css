@@ -1,0 +1,135 @@
+table {
+    border-collapse: inherit !important;
+
+
+}
+
+body{
+    background-color: #F8EFFB;
+}
+.titre{
+    color: #FE2E64;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.p3_2{
+
+    background-color: white;
+    width: 1200px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.t2{
+
+    font-size: 20px;
+    color: #08088A;
+    padding: 10px;
+    font-weight: bold ;
+
+}
+.parg{
+    font-size: 18px;
+    padding:2px 5px;
+    Line-Height: 20pt;
+    font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+.bold{
+    font-weight: bold ;
+    font-size: 18px;
+    padding:2px 5px;
+}
+.espace{
+    padding:0 20px;
+    font-size: 18px;
+    Line-Height: 20pt;
+}
+.pyramide_img{
+    display: block;
+    margin: auto;
+}
+.base_reglage{
+    font-size: 20px;
+    color: #a8999c;
+    padding: 10px;
+    font-weight: bold ;
+}
+.fleche{
+    width:0px;
+    border:20px solid transparent;
+    border-left:20px solid purple;
+}
+.table_erreur{
+    margin-top: 20px;
+    text-align: justify;
+    border-spacing: 10px;
+
+}
+.shadowTitre{
+    margin-left: 20px;
+    font-size: 20px;
+    text-shadow: 1px 3px 3px rgba(135, 206, 235, 1);
+}
+.tab_commentaire{
+    border-spacing: 25px;
+    border: 1px black solid;
+    margin: auto;
+
+}
+.butt_commentaire{
+    background: #F2F2F2;
+    color: #F7819F;
+    font-weight: bold;
+    height: 30px;
+
+    -moz-box-shadow: 2px 2px 10px 0px #656565;
+    -webkit-box-shadow: 2px 2px 10px 0px #656565;
+    -o-box-shadow: 2px 2px 10px 0px #656565;
+    box-shadow: 2px 2px 10px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=10);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.butt_commentaire:hover{
+    -moz-box-shadow: 10px 10px 20px 0px #cfcfcf;
+    -webkit-box-shadow: 10px 10px 20px 0px #cfcfcf;
+    -o-box-shadow: 10px 10px 20px 0px #cfcfcf;
+    box-shadow: 10px 10px 20px 0px #cfcfcf;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=20);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.tab_affich_comment{
+    border-collapse: collapse !important;
+
+}
+.tab_affich_comment tr td{
+   border: 1px #4B088A solid;
+    height: 50px;
+    background-color: #FBEFF2;
+
+
+}
+.td2_tab_affich_comment:hover{
+    background-color: #F5A9F2;
+
+}
+.td1_tab_affich_comment{
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.td2_tab_affich_comment{
+    width: 500px;
+}
+.td_effet_css_commentaire{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
